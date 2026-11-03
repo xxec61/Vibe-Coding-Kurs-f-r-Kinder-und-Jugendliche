@@ -1,0 +1,62 @@
+### <u>Sammelspiel</u>
+
+Bei einem Sammelspiel geht es darum, dass ihr Objekte einsammelt. Ein bekanntes Spiel ist Pac-Man.
+
+Ihr steuert eine Figur mit den Pfeiltasten. Auf dem Spielfeld liegen Sammelobjekte. Wenn die Figur ein Objekt berührt, verschwindet es und ihr bekommt einen Punkt.
+
+Bevor wir ein Spiel umsetzen, machen wir uns vorher eine Checkliste mit den Spielelementen, die wir umsetzen müssen.
+
+Für ein Sammelspiel brauchen wir beispielsweise, 
+
+- eine Spielfigur, die sich bewegen kann
+- Objekte, die auf dem Spielfeld liegen
+- Eine Kollision zwischen der Figur und dem Objekt, damit man das Objekt aufsammelt
+- Ein Punktestand der hochgeht, sobald man ein Objekt gesammelt hat
+
+### <u>Umsetzung</u>
+
+Wir wollen jetzt unseren ersten Prompt schreiben. Was kommt da nun rein? Natürlich alle Punkte, die wir vorher in unsere Checklist hinzugefügt haben.
+
+Wie müsste also unser Prompt lauten? Wir können beispielweise schreiben:
+
+**Erstelle mir ein Sammelspiel, bei dem ich Objekte aufsammeln muss. Sobald ein Objekt berührt wird, geht der Punktestand hoch.**
+
+In dem wir auf die “Absenden” klicken, senden wir unseren Prompt ab. Jetzt können wir darauf warten, was die KI uns ausgibt. Das kann je nach Gerät und heruntergeladenes Modell variieren. Je leistungsstärker, also mehr Power, euer Gerät hat, umso schneller wird die KI antworten. 
+
+Sobald die KI fertig überlegt hat, können wir auf den Ausführen-Button klicken. Dadurch öffnet sich im Hintergrund ein Fenster. Hier sehen wir das erstellt Spiel.
+
+Nun gehen wir unsere Checkliste einmal durch, ob wirklich alles umgesetzt worden ist.
+
+- [ ]  Kann sich unsere Figur mit dem Pfeiltsasten bewegen
+- [ ]  Liegen auf dem Spielfeld Objekte
+- [ ]  Wird ein Objekt aufgesammelt, sobald man diese mit einer Figur berührt
+- [ ]  Geht der Punktestand hoch
+
+Aus der Checkliste kann ich den zweiten Punkt abhaken.
+
+Falls eine Funktion nicht umgesetzt worden ist, dann schreiben wir einen Prompt, der gezielt dieses umsetzt. 
+
+Die könnten je Checkpunkt folgendermaßen aussehen:
+
+- [ ]  Die Figur bewegt sich nicht mit den Pfeiltasten. Kannst du das anpassen.
+- [ ]  Auf dem Spielfeld liegen keine Objekte. Bitte füge welche hinzu.
+- [ ]  Das Objekt verschwindet nicht, wenn ich mit der Figur diese berühre. Passe dies an.
+- [ ]  Der Punktestand geht nicht hoch, wenn ich ein Objekt aufsammle. Bitte behebe das.
+
+In meinem Fall hab ich gar keine Figur auf dem Spielfeld und kann die Kreise mit der Maus aufsammeln.
+
+Deshalb schreibe ich: I**ch wollte eine Figur haben, die man mit den Pfeiltasten bewegen kann, um die Kreise zu sammeln. Kannst du eine Figur einfügen.** 
+
+Dann sende ich den Prompt ab. Nun hab ich einen gelben Kreis als Figur, die ich auch mit den Pfeiltasten bewegen kann. Aber ich merke, dass sie durch die blauen Punkte hindurch geht. 
+
+Also in meiner Checkliste kann ich den ersten Punkt abhaken. Nun müssen noch die zwei anderen umgesetzt werden. Also schreib ich der KI: **Die Figur geht durch die blauen Kreise hindurch und sammelt sie nicht auf. Kannst du das anpassen.**
+
+Ich führe den Code aus. Und zack, es funktioniert alles einwandfrei.
+
+Somit habe ich alle Checkpunkte abgehakt. Um das Spiel auf eurem Gerät zu speichern, könnt ihr bei der UI unten auf den Knopf “Als Datei speichern” anklicken. Nun könnt ihr jederzeit das Spiel auf eurem Gerät spielen.
+
+Hier habt ihr ein Beispiel gesehen, dass es passieren kann, dass die KI nicht direkt das umsetzt, was IHR ihm sagt. Dann müsst ihr der KI wiederholend sagen, was es nicht oder falsch umgesetzt hat, bis alles so funktioniert, wie ihr es gerne hättet. 
+
+Wenn du merkst, dass die KI gar nicht auf deine Prompts eingehend, dann kannst du die Seite neu laden, um ein neuen Chat zu erstellen.
+
+Ein kleiner Hinweis: Die Chats, die über die UI geführt werden, werden nicht gespeichert. Ihr könnt nur den Stand des Spiels herunterladen.
